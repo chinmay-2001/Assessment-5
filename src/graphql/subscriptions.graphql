@@ -1,0 +1,34 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateEmployee($filter: ModelSubscriptionEmployeeFilterInput) {
+  onCreateEmployee(filter: $filter) {
+    id
+    employeeName
+    employeeEmail
+    employeePhoneNo
+    employeeAddress
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateEmployee($filter: ModelSubscriptionEmployeeFilterInput) {
+  onUpdateEmployee(filter: $filter) {
+    id
+    employeeName
+    employeeEmail
+    employeePhoneNo
+    employeeAddress
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteEmployee($filter: ModelSubscriptionEmployeeFilterInput) {
+  onDeleteEmployee(filter: $filter) {
+    id
+    employeeName
+    employeeEmail
+    employeePhoneNo
+    employeeAddress
+    createdAt
+    updatedAt
+  }
+}
